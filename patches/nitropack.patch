@@ -1,0 +1,12 @@
+diff --git a/dist/core/index.mjs b/dist/core/index.mjs
+index 738002bff23c1eebfe9aeef5319bc0366f9be1a6..7856afeb26b94928a5d35a196a0535432ebf5177 100644
+--- a/dist/core/index.mjs
++++ b/dist/core/index.mjs
+@@ -1056,6 +1056,7 @@ async function snapshotStorage(nitro) {
+       data[key] = await nitro.storage.getItem(key);
+     })
+   );
++  console.log('snapshot of storage', data)
+   return data;
+ }
+ 
