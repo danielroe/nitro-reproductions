@@ -8,10 +8,5 @@
   "devDependencies": {
     "nitropack": "latest"
   },
-  "packageManager": "pnpm@9.15.3",
-  "pnpm": {
-    "patchedDependencies": {
-      "nitropack": "patches/nitropack.patch"
-    }
-  }
+  "packageManager": "pnpm@9.15.3"
 }
